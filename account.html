@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title> Workspace </title>
+        <link rel="stylesheet" href="project2.css">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+        <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+        <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+        <script src="project2.js"></script>
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css" integrity="sha512-XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX" crossorigin="anonymous" />
+
+</head>
+<body>
+    <nav class="topnav">
+        <div class="division">
+        <img src="logo.png" alt="logo" class="logo">
+        <h1>Workspace</h1></div>
+        <div class="search">
+            <input type="text" placeholder="Search in home">
+            <button type="submit"><i class="fa fa-search"></i></button>
+        </div>
+        </nav>
+          <div class="sidenav">
+            <a href="home.html"><i class="fa fa-home"></i>&nbsp HOME</a><br>
+            <a href="customer.html"  ><i class="fa fa-user"></i>&nbsp CUSTOMER</a><br>
+            <a href="department.html"   ><i class="fa fa-building"></i>&nbsp DEPARTMENT</a><br>
+            <a href="media.html"><i class="fa fa-film"></i>&nbsp MEDIA</a>
+            <a href="account.html" class="active" style="margin-top: 300px;"><i class="fa fa-user"></i>&nbsp MY ACCOUNT</a>
+        </div>
+        <div class="mediagrid">
+        <div style="margin-top: 100px;" class="grid-ite" ><img src="user.png"><a href="#" class="fa fa-pencil" onclick="img()"></a>
+        </div>
+        </div>
+        <form>
+            <h3>Name:</h3>
+            <input type="text" value="John Doe" id="name"><a href="#" class="fa fa-pencil" style="font-size: 35px" onClick="editName()"></a>
+            <h3>Email:</h3>
+            <input type="email" value="JohnDoe@gmail.com" id="email"><a href="#" class="fa fa-pencil" style="font-size: 35px" onClick="editEmail()"></a>
+            <h3>Phone-no:</h3>
+            <input type="text" value="784799367" id="pno"><a href="#" class="fa fa-pencil" style="font-size: 35px" onClick="editPh()"></a>
+            <h3>DOB:</h3>
+            <input type="text" value="18 sept 2002" id="dob"><a href="#" class="fa fa-pencil" style="font-size: 35px" onClick="editDob()"></a><br><br>
+            <input type="button" value="SAVE" class="button" onclick="save()">
+            <input type="button" value="CANCEL" class="button"><br><br><br><br><br>
+        </form>
+
+
+        </body>
+        </html>

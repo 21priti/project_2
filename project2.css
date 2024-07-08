@@ -1,0 +1,312 @@
+body{
+    margin: 0;
+    padding: 0;
+    background-color: #131c2c;
+    text-decoration: none;
+    overflow: auto;
+}
+.topnav{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+    height: 80px;
+    border: 1px solid white;
+    background-color: #f0f0f0;
+    position: fixed;
+    top: 0;
+
+}
+.topnav .division{
+    display: flex;
+    align-items: center;
+
+}
+.topnav .logo{
+    border-radius: 50%;
+    height:80px;
+    width: 100px;
+}
+.topnav h1{
+    color: black;
+    font-size: 30px;
+    }
+    .topnav .search{
+        display: flex;
+        align-items: center;
+    }
+.topnav input[type=text]{
+    padding: 6px;
+    font-size: 17px;
+    border: 1px solid black;
+    flex: 1;
+}
+.topnav button{
+    padding: 6px 10px;
+    margin-right: 20px;
+    background: #ddd;
+    font-size: 17px;
+    cursor: pointer;
+    border-radius: 5px;
+}
+.sidenav {
+    position: fixed;
+    display: flex;
+    justify-content: space-between;
+    flex-direction: column;
+    width: 280px;
+    top: 100px;
+}
+
+.sidenav a {
+    padding: 20px;
+    text-decoration: none;
+    color: pink;
+    font-size: 25px;
+    border: 1px solid white;
+    padding: 10px;
+    border-radius: 10px;
+    height: inherit;
+}
+
+.sidenav a.active {
+    background-color: #2196F3;
+    color: white;
+}
+
+.sidenav a:hover {
+    color: white;
+}
+
+.totalinfo{
+    display: grid;
+    height: auto;
+    padding: 10px;
+    margin-top: 80px;
+    margin-left: 290px;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 10px 10px;
+}
+.grid-item {
+    background-color: lightblue;
+    border: 1px solid rgb(0, 0, 0);
+    padding: 20px;
+    font-size: 30px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+    color: black;
+    cursor: default;
+    border-radius: 30px;
+    height: 180px;
+    
+    
+  }
+  .grid2{
+    background-color: pink;
+  }
+  .grid3{
+    background-color:lightgreen;
+  }
+  .grid-item p {
+    font-size: 30px; /* Adjust size as needed */
+    font-weight: bold;
+    margin: 0;
+    text-decoration: none; /* Remove underline */
+}
+
+.grid-item h1 {
+    font-size: 40px; /* Adjust size as needed */
+    margin: 0;
+    text-decoration: none; /* Remove underline */
+}
+.table1{
+    margin-top: 40px;
+    margin-left: 300px;
+    border: 1px solid white;
+    border-radius: 20px;
+}
+.table2{
+    margin-top: 100px;
+    margin-left: 370px;
+    border: 1px solid white;
+    border-radius: 20px;
+    width: 1000px;
+}
+.table2 h1{
+    font-size: 30px;
+    background-color: lightblue;
+    margin: 3px;
+    padding: 15px;
+    border-radius: 10px;
+}
+.table1 h1{
+    font-size: 30px;
+    background-color: lightblue;
+    margin: 3px;
+    padding: 15px;
+    border-radius: 10px;
+}
+th{
+    font-weight: bold;
+}
+td,th {
+    border: 1px solid #dddddd;
+    text-align: left;
+    padding: 8px;
+    color: white;
+    font-size: 20px;
+    width: 250px; /* Fixed width for all table cells */
+    height: 50px;
+    text-align: center;
+  }
+  .media{
+        display: grid;
+        height: auto;
+        padding: 10px;
+        margin-top: 20px;
+        margin-left: 290px;
+        grid-template-columns: repeat(4, 1fr);
+        gap: 10px 10px;
+    }
+    .media .grid-item {
+        background-color: lightcoral;
+        border: 1px solid rgb(0, 0, 0);
+        padding: 20px;
+        font-size: 30px;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-evenly;
+        align-items: center;
+        color: black;
+        cursor: default;
+        border-radius: 30px;
+        height: 180px;
+        
+        
+      }
+      .medev{
+        width: 100%;
+        height: 70px;
+        margin-left: 300px;
+        background-color: lightblue;
+        border-radius: 10px;
+        margin-top: 20px;
+      }
+  .medev h1{
+    font-size: 30px;
+    margin: 3px;
+    padding: 15px;
+    
+
+  }
+  .paging{
+   margin-left: 750px;
+    margin-top: 30px;
+    display: flex;
+    /* justify-content: space-around; */
+    align-items: center;
+    align-content: center;
+   
+  }
+  .paging i,h2{
+    width: 50px;
+    height: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-left: 15px;
+    border: 1px solid pink;
+    color: white;
+    border-radius: 10px;
+  }
+.mediaheading{
+    margin-left:300px ;
+    margin-top: 100px;
+    border: 1px solid white;
+    border-radius: 20px;
+    background-color: lightblue;
+}
+.mediaheading h1{
+    font-size: 30px;
+    margin: 3px;
+    padding: 15px;
+    border-radius: 10px;
+}
+.mediagrid{
+    display: grid;
+    height: auto;
+    padding: 10px;
+    margin-top: 10px;
+    margin-left: 290px;
+    grid-template-columns: repeat(3, 1.5fr);
+    gap: 10px 10px;
+}
+.grid-ite {
+    margin: 10px;
+    color: black;
+    cursor: default;
+    height: 230px;
+   
+    }
+    .grid-ite img{
+        height:230px;
+        width:380px;
+        border-radius: 30px;
+        border: 1px solid pink;
+    }
+    .grid-ite video{
+        height:230px;
+        width:380px;
+        border-radius: 30px;
+        border: 1px solid pink;
+    }
+    .grid-ite  a{
+        color: white;
+        font-size: 35px;
+        margin-left: 370px;
+        text-decoration: none;
+        
+    }
+    form{
+        margin-left: 350px;
+        margin-top: 50px;
+    }
+    form input[type=text],[type=email]{
+        width: 380px;
+        padding:12px;
+        border:1px solid #ccc;
+        font-size: 15px;
+        color: black;
+        height: 100%;
+        border-radius:25px;
+        box-shadow: 5px 20px 10px black;
+    }
+    form h3{
+        font-size: 20px;
+        color:white;
+        margin-left: 10px;
+        
+    }
+    form a{
+        color: white;
+        text-decoration: none;
+        margin-left: 15px;
+    }
+    .button{
+        background-color: #04aa6d;
+            padding: 12px 20px;
+            border: none;
+            border-radius: 4px;
+            cursor: pointer;
+            width: 150px;
+            font-size: 15px;
+            margin-left:40px;
+            border-radius:25px;
+            margin-top: 20px;
+            box-shadow: 5px 20px 10px black;
+    }
+    .button:hover{
+        opacity: 0.6;
+    }
